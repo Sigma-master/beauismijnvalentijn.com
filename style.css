@@ -1,0 +1,59 @@
+#menu li {
+  display: inline;
+  float: left;
+  border: 1px solid powderblue;
+
+
+}
+
+
+#menu {
+  background-color: #4a4a4a;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+#menu a {
+  color: black;
+  text-decoration: none;
+  font-family: georgia;
+  display: block;
+  padding: 16px;
+}
+
+#menu a:hover {
+  color: ;
+  background-color: white;
+}
+
+
+table.acheron {
+  border: 2px solid black;
+  
+}
+
+table.acheron th {
+  border: 2px solid black;
+}
+
+table.acheron td {
+  border: 2px solid black;
+}
+
+p.how {
+  color: yellow;
+}
+
+p.why {
+  font-size: 20px;
+  color: red;
+}
+
+p.who {
+  font-size: 30px;
+  color: green;
+}
+
+

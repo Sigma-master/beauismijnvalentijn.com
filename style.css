@@ -1,0 +1,132 @@
+.bubble img {
+  width: 50px;
+  animation: bubble 5s linear infinite;
+}
+
+
+  img {
+   animation-name: beau;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate-reverse;
+   }
+@keyframes beau {
+  0% {
+    transform: translateY(150em);
+  }
+  50% {
+    transform: translateY(69em);
+  }
+  100% {
+    transform: translateY(50em);
+  }
+}
+
+
+
+.bubble {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 700px;
+}
+
+/* bubble animatie begin */
+@keyframes bubble {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+
+  50% {
+
+    opacity: 1;
+  }
+
+  70% {
+
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(150vh);
+    opacity: 0;
+  }
+}
+
+.bubble img:nth-child(1) {
+  animation-delay: 2s;
+  width: 25px;
+}
+
+.bubble img:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.bubble img:nth-child(3) {
+  animation-delay: 4.5s;
+  width: 25px;
+}
+
+.bubble img:nth-child(4) {
+  animation-delay: 3s;
+}
+
+.bubble img:nth-child(5) {
+  animation-delay: 6.2s;
+}
+
+.bubble img:nth-child(6) {
+  animation-delay: 7.7s;
+  width: 20px;
+}
+
+.bubble img:nth-child(7) {
+  animation-delay: 3.8s;
+  width: 35px;
+}
+
+/* bubble animatie eind */
+
+h3{
+  text-align: center;
+  animation-name: glow;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes glow {
+  0% {
+    font-size: 1em;
+    color: black;
+  }
+  50% {
+    font-size: 3em;
+    color: red;
+  }
+  100% {
+    font-size: 1em;
+    color: black;
+  }
+}
+
+p{
+  text-align: center;
+  animation-name: YeahYeah ;
+  animation-duration: 2s;
+  animation-iteration-count: infinite ;
+  animation-timing-function: ease-in-out;
+} 
+@keyframes YeahYeah {
+  0%{
+    font-size: 50px;
+  }
+  50%{
+    font-size: 75px;
+  }
+  100%{
+    font-size: 50px;
+  }
+}
